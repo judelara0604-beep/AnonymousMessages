@@ -379,7 +379,7 @@
         await sbFetch('confessions', {
             method: 'POST',
             prefer: 'return=minimal',
-            body: JSON.stringify({ text, tag, mood, likes: 0, approved: false })
+            body: JSON.stringify({ text, tag, mood, likes: 0, approved: true })
         });
     }
 
